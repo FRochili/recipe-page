@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,400;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  background-color:#f3e6d8;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  background-color: linen;
+  margin: 15rem auto;
+  max-width: 800px;
+  padding: 4rem;
+}  
+
+img {
+  width: 100%;
+}
+
+h1 {
+    font-size:4.3rem;
+    margin-top:2rem;
+    font-family: 'Ancizar Sans', sans-serif;
+}
+
+p, li {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    font-size:1.8rem;
+    margin-top:2rem;
+    color:rgb(74, 74, 74);
+    line-height: 2.5rem;
+}
+
+.preparation {
+    margin-top:2rem;
+    background-color: mistyrose;
+    padding:2rem;
+    border-radius: 20px;
+}
+
+.preparation h2 {
+    font-size:1.8rem;
+    color:maroon;
+}
+
+ul, ol {
+    padding-left:2rem;
+    margin-top:1rem;
+    line-height:3rem;
+    color:rgb(74, 74, 74);
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.ingredients h1, .instructions h1, .nutrition h1 {
+    font-size:3rem;
+    margin-top:2rem;
+    color:rgb(87, 64, 6);
+}
+
+hr {
+    border:none;
+    margin-top:2rem;
+    background-color:rgb(208, 208, 208);
+    height: 2px;
+}
+
+.nutrition table {
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size:1.8rem;
+    color:rgb(74, 74, 74);
+}
+
+.nutrition td {
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 0;
+}
+
+.nutrition td strong {
+    color:rgb(87, 64, 6);
+}
